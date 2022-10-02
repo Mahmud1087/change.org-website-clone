@@ -6,4 +6,4 @@ This is a clone of the website change.org with just the home page, sign up page 
 
 ### Live Demo on:
 
-[changeorg-webpage.netlify.app]
+[live-demo](changeorg-webpage.netlify.app)
