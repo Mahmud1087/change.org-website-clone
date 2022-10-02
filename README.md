@@ -6,4 +6,4 @@ This is a clone of the website [change.org](https://www.change.org) with just th
 
 ### Live Demo on:
 
-[live-demo](https://www.changeorg-webpage.netlify.app)
+[live-demo](https://changeorg-webpage.netlify.app)
