@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <title>SignUp page</title>
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <h2><a href="index.html" title="Home page" style="color: green;">change.org</a></h2>
+            </div>
+
+            <ul id="menuList">
+                <li><i class="las la-times" id="close"></i></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Start a petition</a></li>
+                <li><a href="#">Browse</a></li>
+                <li><a href="#" class="signup_login">Login or Sign up</a></li>
+            </ul>
+            
+            <button class="hamburger" id="menuBtn">
+                <span class="top"></span>
+                <span class="middle"></span>
+                <span class="bottom"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- SIGNUP AND LOGIN TEXT -->
+    <div class="signupContainer">
+        <div class="container" id="signUpLogin">
+            <h3>Sign up</h3>
+            <p>Already have an account? <a href="login.html">Log in</a></p>
+    
+                <!-- SIGNUP BUTTONS -->
+            <button id="btn1">
+                <i class="lab la-google-plus"></i>
+                <h3>Sign up with Google</h3>
+            </button>
+            <button id="btn2">
+                <i class="lab la-facebook-square"></i>
+                <h3>Sign up with Facebook</h3>
+            </button>
+        </div>
+    
+        <!-- OR PART -->
+        <div class="container" id="or">
+            <hr>
+            <h5>OR</h5>
+            <hr>
+        </div>
+    
+        <!-- FORM -->
+        <div class="container" id="form">
+            <form action="">
+                <input type="text" name="firstName" id="firstName" placeholder="First name">
+                <input type="text" name="lastName" id="lastName" placeholder="Last name">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="password" name="password" id="password" placeholder="Password">
+            </form>
+            <button id="signupLoginBtn">
+                <h3>Sign up</h3>
+            </button>
+            <p>By joining, or logging in via Facebook, you accept Change.org's <a href="T&C">Terms of Service</a> and <a href="policy">Privacy Policy</a></p>
+        </div>
+    </div>
+
+    <!-- BOTTOM NAVIGATION BUTTONS -->
+    <section class="footer">
+        <div class="container">
+            
+            <div class="bottom_navs">
+                <h4>COMPANY</h4>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Impact</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+            </div>
+            
+            <div class="bottom_navs">
+                <h4>COMMUNITY</h4>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Community Guidelines</a></li>
+                </ul>
+            </div>
+
+            
+            <div class="bottom_navs">
+                <h4>SUPPORT</h4>
+                <ul>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Guides</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Policies</a></li>
+                    <li><a href="#">Cookies</a></li>
+                </ul>
+            </div>
+
+            
+            <div class="bottom_navs">
+                <h4>CONNECT</h4>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <select name="Language" id="lang" class="container">
+            <option value="English (United Kindom)">English (United Kindom)</option>
+            <option value="English (United Kindom)">English (United Kindom)</option>
+            <option value="English (United Kindom)">English (United Kindom)</option>
+            <option value="English (United Kindom)">English (United Kindom)</option>
+            <option value="English (United Kindom)">English (United Kindom)</option>
+            <option value="English (United Kindom)">English (United Kindom)</option>
+            <option value="English (United Kindom)">English (United Kindom)</option>
+            <option value="English (United Kindom)">English (United Kindom)</option>
+            <option value="English (United Kindom)">English (United Kindom)</option>
+            <option value="English (United Kindom)">English (United Kindom)</option>
+            <option value="English (United Kindom)">English (United Kindom)</option>
+            <option value="English (United Kindom)">English (United Kindom)</option>
+            <option value="English (United Kindom)">English (United Kindom)</option>
+            <option value="English (United Kindom)">English (United Kindom)</option>
+            <option value="English (United Kindom)">English (United Kindom)</option>
+            <option value="English (United Kindom)">English (United Kindom)</option>
+            <option value="English (United Kindom)">English (United Kindom)</option>
+            <option value="English (United Kindom)">English (United Kindom)</option>
+        </select>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p><b>&copy; 2022, Change.org, PBC</b></p>
+            <p>This site is protected by reCAPTCHA and the Google <a href="#privacy">Privacy Policy</a> and <a href="#TC"> Terms of Service</a> apply.</p>
+        </div>
+    </footer>
+
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
